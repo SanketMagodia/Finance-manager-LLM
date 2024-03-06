@@ -1,0 +1,8 @@
+fastapi
+gpt4all
+pandas==2.1.2
+pydantic
+requests==2.28.1
+uvicorn
+
+
