@@ -47,3 +47,116 @@ text :  - today I bought a bourbon biscuit for $5 and then I spent $2 on my BC T
 ===/LLModel.prompt_model -- prompt/===
 INFO:root:LLM - string seperated successfully
 INFO:root:DB - Adding expenses
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:Login request received
+INFO:root:DB - user Id not found
+INFO:root:login Id not found
+INFO:root:Login request received
+INFO:root:DB - user Id not found
+INFO:root:login Id not found
+INFO:root:Login request received
+INFO:root:DB - user Id found
+INFO:root:login Id received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:Speach received - I bought a sunglasses for 110 dollars
+INFO:root:LLM - String received
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+text :  - I bought a sunglasses for 110 dollars
+              task : Please generate a list of entities and their corresponding prices. each should be in seperate list and output that lists, for example [cab, fries, new phone][5,7,1000]
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - string seperated successfully
+INFO:root:DB - Adding expenses
+INFO:root:DB - adding sunglasses
+INFO:root:DB - expenses updated
+INFO:root:database updated with new expenses
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success

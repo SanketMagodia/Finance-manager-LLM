@@ -3,3 +3,5 @@ test/*
 server/models/*
 server/env/*
 client/clientEnv/*
+server/server.log
+client/app.log
