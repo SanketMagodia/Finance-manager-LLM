@@ -1,0 +1,49 @@
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:Speach received - today I had a bourbon biscuit for 5 hours I spent $2 for my BC Transit
+INFO:root:LLM - String received
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+text :  - today I had a bourbon biscuit for 5 hours I spent $2 for my BC Transit
+              task : Please generate a list of entities and their corresponding prices. each should be in seperate list and output that lists, for example [cab, fries, new phone][5,7,1000]
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - string seperated successfully
+INFO:root:DB - Adding expenses
+INFO:root:Speach received - today I bought a bourbon biscuit for $5 and then I spent $2 on my BC Transit bus ticket
+INFO:root:LLM - String received
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+text :  - today I bought a bourbon biscuit for $5 and then I spent $2 on my BC Transit bus ticket
+              task : Please generate a list of entities and their corresponding prices. each should be in seperate list and output that lists, for example [cab, fries, new phone][5,7,1000]
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - string seperated successfully
+INFO:root:DB - Adding expenses

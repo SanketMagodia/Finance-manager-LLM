@@ -36,7 +36,7 @@ def addExpense(user_id : str , items : list, prices : list):
         purchase_Id = purchases.insert_one(PurchaseData).inserted_id
         user['purchases'].extend([purchase_Id])
         db.user.update_one({"_id":user_id},{"$set": user},upsert = True)
-        logging.info('DB - adding '+items)
+        logging.info('DB - adding '+str(i))
     logging.info('DB - expenses updated')
     return True
 

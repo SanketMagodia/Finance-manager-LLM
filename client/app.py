@@ -3,8 +3,8 @@ import api
 import record, login, register
 
 def main():
-    st.write("# Welcome to Streamlit! 👋")
-    st.sidebar.success("Select a demo above.")
+    st.write("# Smart Manager")
+    # st.sidebar.success("Select a demo above.")
     
     if "token" not in st.session_state:
        
