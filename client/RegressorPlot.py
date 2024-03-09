@@ -3,6 +3,7 @@ import streamlit as st
 import plotly.express as px
 from sklearn.ensemble import RandomForestRegressor
 import pandas as pd
+
 def regressor(aggregated_df):
     fig = px.line(aggregated_df, x='dates', y='price', title=f'Expenses for Selected Period')
 

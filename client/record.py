@@ -13,7 +13,6 @@ def dataFetch():
     
 
 def record_page():
-    
     c1, c2 = st.columns(2)
     with c1:
         st.write("Tell us about your expenses :")
@@ -25,16 +24,6 @@ def record_page():
         response = api.speach(st.session_state.token, text)
         st.success(response['response'])
 
-    
-        
-
-    # st.write("Record your voice, and play the recorded audio:")
-    # audio = mic_recorder(start_prompt="⏺️", stop_prompt="⏹️", key='recorder')
-
-    # if audio:
-    #     st.audio(audio['bytes'])
-
-    # Create a DataFrame
     df = pd.DataFrame(dataFetch())
     df = df[::-1][["item", "price", "dates"]]
     rows_to_display = 3
