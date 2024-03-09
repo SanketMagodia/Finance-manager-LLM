@@ -1,6 +1,7 @@
 
 # Smart Finance Manager using local Large Language model (no API or paid services needed)
 
+
 ## Demo
 ![alt text](https://github.com/SanketMagodia/Finance-manager-LLM/blob/master/images/1.png)
 ![alt text](https://github.com/SanketMagodia/Finance-manager-LLM/blob/master/images/2.png)
@@ -32,6 +33,8 @@ This project implements a personal A.I finance management system with the follow
 
 
 ## Requirements
+- Download the model from https://gpt4all.io/index.html
+- change the paths.py and links.py as per need
 - Python 3.x
 - MongoDB server
 - See serverReq.txt and clientReq.txt file in the server/ and client/ folders respectively for server-client-specific dependencies and setup instructions.
