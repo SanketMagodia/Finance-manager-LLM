@@ -3,7 +3,7 @@ import api
 import record, login, register
 
 def main():
-    st.write("# Smart Manager")
+    st.write("# A.I Finance Manager")
     # st.sidebar.success("Select a demo above.")
     
     if "token" not in st.session_state:

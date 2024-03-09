@@ -58,3 +58,15 @@ def reqData(userId):
     response = requests.post(url, json=json_body)
     logging.info('userDate request response received : '+str(response.json()))
     return response.json()
+
+def AskLLM(userId:str, question:str):
+    url = links.API_URL+"askme"
+    json_body = {
+        'speach':question,
+        'id': userId,
+    }
+    logging.info('sending question request')
+    response = requests.post(url, json=json_body)
+    response = response.json()
+    logging.info('question request response received : ' + str(response))
+    return response

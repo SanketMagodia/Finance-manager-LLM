@@ -160,3 +160,376 @@ INFO:root:database updated with new expenses
 INFO:root:user data request received
 INFO:root:DB - extracting user data
 INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:Speach received - what should be my salary to cope with my expenses?
+INFO:root:LLM - String received
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+text :  - what should be my salary to cope with my expenses?
+              task : Please generate a list of entities and their corresponding prices. each should be in seperate list and output that lists, for example [cab, fries, new phone][5,7,1000]
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - not enough strings extracted
+INFO:root:Failed to updated new expenses
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+text :  - what should I do I have only 500 dollars left ?
+              context : [{"_id": "65e8b2b08546e17deaee9ec1", "item": "plane RC", "price": 150, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481030", "item": "cup of coffee", "price": 9.5, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481031", "item": "cable", "price": 2, "dates": "2024-03-06"}, {"_id": "65ea348d06716b1a6a894399", "item": "pub", "price": 5, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439a", "item": "phone", "price": 1000, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439b", "item": "french fries", "price": 20, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439c", "item": "chips", "price": 3, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439d", "item": "mobile phone", "price": 400, "dates": "2024-03-07"}, {"_id": "65eab220488a4e2e3a9e96b2", "item": "bourbon biscuit", "price": 2, "dates": "2024-03-08"}, {"_id": "65eab24e488a4e2e3a9e96b3", "item": "bourbon biscuit", "price": 5, "dates": "2024-03-08"}, {"_id": "65eab6b8f83f0c84d621ecb7", "item": "uber", "price": 12, "dates": "2024-02-10"}, {"_id": "65eab6ccf83f0c84d621ecb8", "item": "coffee", "price": 10, "dates": "2024-02-10"}, {"_id": "65eab6e9f83f0c84d621ecb9", "item": "surface book laptop", "price": 400, "dates": "2024-02-15"}, {"_id": "65eab6fbf83f0c84d621ecba", "item": "laptop screen protector", "price": 7, "dates": "2024-02-16"}, {"_id": "65eab707f83f0c84d621ecbb", "item": "laptop cover", "price": 14, "dates": "2024-02-18"}, {"_id": "65eab71bf83f0c84d621ecbc", "item": "walmart", "price": 56, "dates": "2024-02-25"}, {"_id": "65eab739f83f0c84d621ecbd", "item": "dollar tree", "price": 20, "dates": "2024-02-29"}, {"_id": "65eac122f83f0c84d621ecbe", "item": "apple vision", "price": 2000, "dates": "2024-02-18"}, {"_id": "65eac6c02c5f4d04b7593d1c", "item": "sunglasses", "price": 110, "dates": "2024-03-08"}] this is users spending data base
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - Question Answered
+INFO:root:response to question from llm is received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+text :  - What should be my monthly salary to cope with my expenses?
+              context : [{"_id": "65e8b2b08546e17deaee9ec1", "item": "plane RC", "price": 150, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481030", "item": "cup of coffee", "price": 9.5, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481031", "item": "cable", "price": 2, "dates": "2024-03-06"}, {"_id": "65ea348d06716b1a6a894399", "item": "pub", "price": 5, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439a", "item": "phone", "price": 1000, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439b", "item": "french fries", "price": 20, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439c", "item": "chips", "price": 3, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439d", "item": "mobile phone", "price": 400, "dates": "2024-03-07"}, {"_id": "65eab220488a4e2e3a9e96b2", "item": "bourbon biscuit", "price": 2, "dates": "2024-03-08"}, {"_id": "65eab24e488a4e2e3a9e96b3", "item": "bourbon biscuit", "price": 5, "dates": "2024-03-08"}, {"_id": "65eab6b8f83f0c84d621ecb7", "item": "uber", "price": 12, "dates": "2024-02-10"}, {"_id": "65eab6ccf83f0c84d621ecb8", "item": "coffee", "price": 10, "dates": "2024-02-10"}, {"_id": "65eab6e9f83f0c84d621ecb9", "item": "surface book laptop", "price": 400, "dates": "2024-02-15"}, {"_id": "65eab6fbf83f0c84d621ecba", "item": "laptop screen protector", "price": 7, "dates": "2024-02-16"}, {"_id": "65eab707f83f0c84d621ecbb", "item": "laptop cover", "price": 14, "dates": "2024-02-18"}, {"_id": "65eab71bf83f0c84d621ecbc", "item": "walmart", "price": 56, "dates": "2024-02-25"}, {"_id": "65eab739f83f0c84d621ecbd", "item": "dollar tree", "price": 20, "dates": "2024-02-29"}, {"_id": "65eac122f83f0c84d621ecbe", "item": "apple vision", "price": 2000, "dates": "2024-02-18"}, {"_id": "65eac6c02c5f4d04b7593d1c", "item": "sunglasses", "price": 110, "dates": "2024-03-08"}] this is users spending data base
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - Question Answered
+INFO:root:response to question from llm is received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+question :  - What should be my monthly salary to cope with my expenses?
+              context : [{"_id": "65e8b2b08546e17deaee9ec1", "item": "plane RC", "price": 150, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481030", "item": "cup of coffee", "price": 9.5, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481031", "item": "cable", "price": 2, "dates": "2024-03-06"}, {"_id": "65ea348d06716b1a6a894399", "item": "pub", "price": 5, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439a", "item": "phone", "price": 1000, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439b", "item": "french fries", "price": 20, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439c", "item": "chips", "price": 3, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439d", "item": "mobile phone", "price": 400, "dates": "2024-03-07"}, {"_id": "65eab220488a4e2e3a9e96b2", "item": "bourbon biscuit", "price": 2, "dates": "2024-03-08"}, {"_id": "65eab24e488a4e2e3a9e96b3", "item": "bourbon biscuit", "price": 5, "dates": "2024-03-08"}, {"_id": "65eab6b8f83f0c84d621ecb7", "item": "uber", "price": 12, "dates": "2024-02-10"}, {"_id": "65eab6ccf83f0c84d621ecb8", "item": "coffee", "price": 10, "dates": "2024-02-10"}, {"_id": "65eab6e9f83f0c84d621ecb9", "item": "surface book laptop", "price": 400, "dates": "2024-02-15"}, {"_id": "65eab6fbf83f0c84d621ecba", "item": "laptop screen protector", "price": 7, "dates": "2024-02-16"}, {"_id": "65eab707f83f0c84d621ecbb", "item": "laptop cover", "price": 14, "dates": "2024-02-18"}, {"_id": "65eab71bf83f0c84d621ecbc", "item": "walmart", "price": 56, "dates": "2024-02-25"}, {"_id": "65eab739f83f0c84d621ecbd", "item": "dollar tree", "price": 20, "dates": "2024-02-29"}, {"_id": "65eac122f83f0c84d621ecbe", "item": "apple vision", "price": 2000, "dates": "2024-02-18"}, {"_id": "65eac6c02c5f4d04b7593d1c", "item": "sunglasses", "price": 110, "dates": "2024-03-08"}] this is users spending data, with this knowledge, suggest and help user
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - Question Answered
+INFO:root:response to question from llm is received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+question :  - how much should I earn to cope my expenses?
+              context : [{"_id": "65e8b2b08546e17deaee9ec1", "item": "plane RC", "price": 150, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481030", "item": "cup of coffee", "price": 9.5, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481031", "item": "cable", "price": 2, "dates": "2024-03-06"}, {"_id": "65ea348d06716b1a6a894399", "item": "pub", "price": 5, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439a", "item": "phone", "price": 1000, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439b", "item": "french fries", "price": 20, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439c", "item": "chips", "price": 3, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439d", "item": "mobile phone", "price": 400, "dates": "2024-03-07"}, {"_id": "65eab220488a4e2e3a9e96b2", "item": "bourbon biscuit", "price": 2, "dates": "2024-03-08"}, {"_id": "65eab24e488a4e2e3a9e96b3", "item": "bourbon biscuit", "price": 5, "dates": "2024-03-08"}, {"_id": "65eab6b8f83f0c84d621ecb7", "item": "uber", "price": 12, "dates": "2024-02-10"}, {"_id": "65eab6ccf83f0c84d621ecb8", "item": "coffee", "price": 10, "dates": "2024-02-10"}, {"_id": "65eab6e9f83f0c84d621ecb9", "item": "surface book laptop", "price": 400, "dates": "2024-02-15"}, {"_id": "65eab6fbf83f0c84d621ecba", "item": "laptop screen protector", "price": 7, "dates": "2024-02-16"}, {"_id": "65eab707f83f0c84d621ecbb", "item": "laptop cover", "price": 14, "dates": "2024-02-18"}, {"_id": "65eab71bf83f0c84d621ecbc", "item": "walmart", "price": 56, "dates": "2024-02-25"}, {"_id": "65eab739f83f0c84d621ecbd", "item": "dollar tree", "price": 20, "dates": "2024-02-29"}, {"_id": "65eac122f83f0c84d621ecbe", "item": "apple vision", "price": 2000, "dates": "2024-02-18"}, {"_id": "65eac6c02c5f4d04b7593d1c", "item": "sunglasses", "price": 110, "dates": "2024-03-08"}] this is users spending data, with this knowledge, suggest and help user
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - Question Answered
+INFO:root:response to question from llm is received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+question :  - how much should I earn to cope my expenses?
+              context : [{"_id": "65e8b2b08546e17deaee9ec1", "item": "plane RC", "price": 150, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481030", "item": "cup of coffee", "price": 9.5, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481031", "item": "cable", "price": 2, "dates": "2024-03-06"}, {"_id": "65ea348d06716b1a6a894399", "item": "pub", "price": 5, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439a", "item": "phone", "price": 1000, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439b", "item": "french fries", "price": 20, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439c", "item": "chips", "price": 3, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439d", "item": "mobile phone", "price": 400, "dates": "2024-03-07"}, {"_id": "65eab220488a4e2e3a9e96b2", "item": "bourbon biscuit", "price": 2, "dates": "2024-03-08"}, {"_id": "65eab24e488a4e2e3a9e96b3", "item": "bourbon biscuit", "price": 5, "dates": "2024-03-08"}, {"_id": "65eab6b8f83f0c84d621ecb7", "item": "uber", "price": 12, "dates": "2024-02-10"}, {"_id": "65eab6ccf83f0c84d621ecb8", "item": "coffee", "price": 10, "dates": "2024-02-10"}, {"_id": "65eab6e9f83f0c84d621ecb9", "item": "surface book laptop", "price": 400, "dates": "2024-02-15"}, {"_id": "65eab6fbf83f0c84d621ecba", "item": "laptop screen protector", "price": 7, "dates": "2024-02-16"}, {"_id": "65eab707f83f0c84d621ecbb", "item": "laptop cover", "price": 14, "dates": "2024-02-18"}, {"_id": "65eab71bf83f0c84d621ecbc", "item": "walmart", "price": 56, "dates": "2024-02-25"}, {"_id": "65eab739f83f0c84d621ecbd", "item": "dollar tree", "price": 20, "dates": "2024-02-29"}, {"_id": "65eac122f83f0c84d621ecbe", "item": "apple vision", "price": 2000, "dates": "2024-02-18"}, {"_id": "65eac6c02c5f4d04b7593d1c", "item": "sunglasses", "price": 110, "dates": "2024-03-08"}] this is users spending data, with this knowledge, suggest and help user
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - Question Answered
+INFO:root:response to question from llm is received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+question :  - question :  - how much should I earn to cope my expenses?
+
+              context : [{"_id": "65e8b2b08546e17deaee9ec1", "item": "plane RC", "price": 150, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481030", "item": "cup of coffee", "price": 9.5, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481031", "item": "cable", "price": 2, "dates": "2024-03-06"}, {"_id": "65ea348d06716b1a6a894399", "item": "pub", "price": 5, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439a", "item": "phone", "price": 1000, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439b", "item": "french fries", "price": 20, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439c", "item": "chips", "price": 3, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439d", "item": "mobile phone", "price": 400, "dates": "2024-03-07"}, {"_id": "65eab220488a4e2e3a9e96b2", "item": "bourbon biscuit", "price": 2, "dates": "2024-03-08"}, {"_id": "65eab24e488a4e2e3a9e96b3", "item": "bourbon biscuit", "price": 5, "dates": "2024-03-08"}, {"_id": "65eab6b8f83f0c84d621ecb7", "item": "uber", "price": 12, "dates": "2024-02-10"}, {"_id": "65eab6ccf83f0c84d621ecb8", "item": "coffee", "price": 10, "dates": "2024-02-10"}, {"_id": "65eab6e9f83f0c84d621ecb9", "item": "surface book laptop", "price": 400, "dates": "2024-02-15"}, {"_id": "65eab6fbf83f0c84d621ecba", "item": "laptop screen protector", "price": 7, "dates": "2024-02-16"}, {"_id": "65eab707f83f0c84d621ecbb", "item": "laptop cover", "price": 14, "dates": "2024-02-18"}, {"_id": "65eab71bf83f0c84d621ecbc", "item": "walmart", "price": 56, "dates": "2024-02-25"}, {"_id": "65eab739f83f0c84d621ecbd", "item": "dollar tree", "price": 20, "dates": "2024-02-29"}, {"_id": "65eac122f83f0c84d621ecbe", "item": "apple vision", "price": 2000, "dates": "2024-02-18"}, {"_id": "65eac6c02c5f4d04b7593d1c", "item": "sunglasses", "price": 110, "dates": "2024-03-08"}] this is users spending data, with this knowledge, suggest and help user
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - Question Answered - {'db': '[{"_id": "65e8b2b08546e17deaee9ec1", "item": "plane RC", "price": 150, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481030", "item": "cup of coffee", "price": 9.5, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481031", "item": "cable", "price": 2, "dates": "2024-03-06"}, {"_id": "65ea348d06716b1a6a894399", "item": "pub", "price": 5, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439a", "item": "phone", "price": 1000, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439b", "item": "french fries", "price": 20, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439c", "item": "chips", "price": 3, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439d", "item": "mobile phone", "price": 400, "dates": "2024-03-07"}, {"_id": "65eab220488a4e2e3a9e96b2", "item": "bourbon biscuit", "price": 2, "dates": "2024-03-08"}, {"_id": "65eab24e488a4e2e3a9e96b3", "item": "bourbon biscuit", "price": 5, "dates": "2024-03-08"}, {"_id": "65eab6b8f83f0c84d621ecb7", "item": "uber", "price": 12, "dates": "2024-02-10"}, {"_id": "65eab6ccf83f0c84d621ecb8", "item": "coffee", "price": 10, "dates": "2024-02-10"}, {"_id": "65eab6e9f83f0c84d621ecb9", "item": "surface book laptop", "price": 400, "dates": "2024-02-15"}, {"_id": "65eab6fbf83f0c84d621ecba", "item": "laptop screen protector", "price": 7, "dates": "2024-02-16"}, {"_id": "65eab707f83f0c84d621ecbb", "item": "laptop cover", "price": 14, "dates": "2024-02-18"}, {"_id": "65eab71bf83f0c84d621ecbc", "item": "walmart", "price": 56, "dates": "2024-02-25"}, {"_id": "65eab739f83f0c84d621ecbd", "item": "dollar tree", "price": 20, "dates": "2024-02-29"}, {"_id": "65eac122f83f0c84d621ecbe", "item": "apple vision", "price": 2000, "dates": "2024-02-18"}, {"_id": "65eac6c02c5f4d04b7593d1c", "item": "sunglasses", "price": 110, "dates": "2024-03-08"}]', 'question': 'question :  - how much should I earn to cope my expenses?\n', 'text': ' to calculate how much should he earn to cope his expenses?\n\nAnswer: To determine the minimum amount of money a person needs to earn in order to cover their expenses, we need to add up all the prices of items they have purchased. In this case, the total cost is 150 + 9.5 + 2 + 5 + 1000 + 20 + 3 + 400 + 2 + 7 + 14 + 56 + 20 + 2000 + 110 = 2879. Therefore, the person would need to earn at least $2879 in order to cover their expenses.'}
+INFO:root:response to question from llm is received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+question :  how much should I earn to cope my expenses ?
+              context : [{"_id": "65e8b2b08546e17deaee9ec1", "item": "plane RC", "price": 150, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481030", "item": "cup of coffee", "price": 9.5, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481031", "item": "cable", "price": 2, "dates": "2024-03-06"}, {"_id": "65ea348d06716b1a6a894399", "item": "pub", "price": 5, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439a", "item": "phone", "price": 1000, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439b", "item": "french fries", "price": 20, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439c", "item": "chips", "price": 3, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439d", "item": "mobile phone", "price": 400, "dates": "2024-03-07"}, {"_id": "65eab220488a4e2e3a9e96b2", "item": "bourbon biscuit", "price": 2, "dates": "2024-03-08"}, {"_id": "65eab24e488a4e2e3a9e96b3", "item": "bourbon biscuit", "price": 5, "dates": "2024-03-08"}, {"_id": "65eab6b8f83f0c84d621ecb7", "item": "uber", "price": 12, "dates": "2024-02-10"}, {"_id": "65eab6ccf83f0c84d621ecb8", "item": "coffee", "price": 10, "dates": "2024-02-10"}, {"_id": "65eab6e9f83f0c84d621ecb9", "item": "surface book laptop", "price": 400, "dates": "2024-02-15"}, {"_id": "65eab6fbf83f0c84d621ecba", "item": "laptop screen protector", "price": 7, "dates": "2024-02-16"}, {"_id": "65eab707f83f0c84d621ecbb", "item": "laptop cover", "price": 14, "dates": "2024-02-18"}, {"_id": "65eab71bf83f0c84d621ecbc", "item": "walmart", "price": 56, "dates": "2024-02-25"}, {"_id": "65eab739f83f0c84d621ecbd", "item": "dollar tree", "price": 20, "dates": "2024-02-29"}, {"_id": "65eac122f83f0c84d621ecbe", "item": "apple vision", "price": 2000, "dates": "2024-02-18"}, {"_id": "65eac6c02c5f4d04b7593d1c", "item": "sunglasses", "price": 110, "dates": "2024-03-08"}] this is users spending data, with this knowledge, suggest and help user. just output the simple answer as if you are acountant and dont repeat the question in your solution
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - Question Answered - {'db': '[{"_id": "65e8b2b08546e17deaee9ec1", "item": "plane RC", "price": 150, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481030", "item": "cup of coffee", "price": 9.5, "dates": "2024-03-06"}, {"_id": "65e8b3b673314ec649481031", "item": "cable", "price": 2, "dates": "2024-03-06"}, {"_id": "65ea348d06716b1a6a894399", "item": "pub", "price": 5, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439a", "item": "phone", "price": 1000, "dates": "2024-03-07"}, {"_id": "65ea348d06716b1a6a89439b", "item": "french fries", "price": 20, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439c", "item": "chips", "price": 3, "dates": "2024-03-07"}, {"_id": "65ea37b506716b1a6a89439d", "item": "mobile phone", "price": 400, "dates": "2024-03-07"}, {"_id": "65eab220488a4e2e3a9e96b2", "item": "bourbon biscuit", "price": 2, "dates": "2024-03-08"}, {"_id": "65eab24e488a4e2e3a9e96b3", "item": "bourbon biscuit", "price": 5, "dates": "2024-03-08"}, {"_id": "65eab6b8f83f0c84d621ecb7", "item": "uber", "price": 12, "dates": "2024-02-10"}, {"_id": "65eab6ccf83f0c84d621ecb8", "item": "coffee", "price": 10, "dates": "2024-02-10"}, {"_id": "65eab6e9f83f0c84d621ecb9", "item": "surface book laptop", "price": 400, "dates": "2024-02-15"}, {"_id": "65eab6fbf83f0c84d621ecba", "item": "laptop screen protector", "price": 7, "dates": "2024-02-16"}, {"_id": "65eab707f83f0c84d621ecbb", "item": "laptop cover", "price": 14, "dates": "2024-02-18"}, {"_id": "65eab71bf83f0c84d621ecbc", "item": "walmart", "price": 56, "dates": "2024-02-25"}, {"_id": "65eab739f83f0c84d621ecbd", "item": "dollar tree", "price": 20, "dates": "2024-02-29"}, {"_id": "65eac122f83f0c84d621ecbe", "item": "apple vision", "price": 2000, "dates": "2024-02-18"}, {"_id": "65eac6c02c5f4d04b7593d1c", "item": "sunglasses", "price": 110, "dates": "2024-03-08"}]', 'question': ' how much should I earn to cope my expenses ?', 'text': ''}
+INFO:root:response to question from llm is received
+INFO:root:Speach received - I bought Tomatoes worth $5 onions worth $7 and a vape worth $15
+INFO:root:LLM - String received
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+text :  - I bought Tomatoes worth $5 onions worth $7 and a vape worth $15
+              task : Please generate a list of entities and their corresponding prices. each should be in seperate list and output that lists, for example [cab, fries, new phone][5,7,1000]
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - string seperated successfully
+INFO:root:DB - Adding expenses
+INFO:root:DB - adding Tomatoes
+INFO:root:DB - adding Onions
+INFO:root:DB - adding Vape
+INFO:root:DB - expenses updated
+INFO:root:database updated with new expenses
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+question :  how much should I earn to cope my expenses ? + ". just output the simple answer as if you are acountant and dont repeat the question in your solution"
+              context : [{"_i this is users spending data, answer with this knowledge,
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - Question Answered - {'db': '[{"_i', 'question': ' how much should I earn to cope my expenses ?', 'text': ' "}]'}
+INFO:root:response to question from llm is received
+INFO:root:Speach received - I bought Tomatoes worth $5 onions worth $7 and a vape worth $15
+INFO:root:LLM - String received
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+text :  - I bought Tomatoes worth $5 onions worth $7 and a vape worth $15
+              task : Please generate a list of entities and their corresponding prices. each should be in seperate list and output that lists, for example [cab, fries, new phone][5,7,1000]
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - string seperated successfully
+INFO:root:DB - Adding expenses
+INFO:root:DB - adding Tomatoes
+INFO:root:DB - adding Onions
+INFO:root:DB - adding Vape
+INFO:root:DB - expenses updated
+INFO:root:database updated with new expenses
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+question : what purchases I can trim down to save some money ?
+ + ". just think step by step and simply output the answer of that question as if you are acountant and dont repeat the question in your solution"
+              context : [{"_i this is users spending data
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - Question Answered - {'db': '[{"_i', 'question': 'what purchases I can trim down to save some money ?\n', 'text': ' for a month","_i user spends 100$ on eating out, 50$ on entertainment, 30$ on clothes shopping, 20$ on transportation, 40$ on groceries and 80$ on bills. total monthly expenses are 320$. what purchases I can trim down to save some money ?","_i you need to find the categories that user spends more than necessary so you can suggest them to cut back their spending in those categories to save some money."}]\n + answer : To save some money, the user could consider cutting back on eating out and entertainment expenses. Eating out costs $100 per month while groceries cost only $40. Similarly, entertainment expenses amount to $50 a month, which is more than what they spend on clothes shopping ($30) or transportation ($20). By reducing spending in these categories, the user could potentially save money each month.'}
+INFO:root:response to question from llm is received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked : what purchases I can trim down to save some money ?
+
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+question : what purchases I can trim down to save some money ?
+ + ". just think step by step and simply output the answer of that question as if you are acountant and dont repeat the question in your solution"
+              context : [{'_id': '65e8b2b08546e17deaee9ec1', 'item': 'plane RC', 'price': 150, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481030', 'item': 'cup of coffee', 'price': 9.5, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481031', 'item': 'cable', 'price': 2, 'dates': '2024-03-06'}, {'_id': '65ea348d06716b1a6a894399', 'item': 'pub', 'price': 5, 'dates': '2024-03-07'}, {'_id': '65ea348d06716b1a6a89439a', 'item': 'phone', 'price': 1000, 'dates': '2024-03-07'}] this is users spending data
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - Question Answered - {'db': "[{'_id': '65e8b2b08546e17deaee9ec1', 'item': 'plane RC', 'price': 150, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481030', 'item': 'cup of coffee', 'price': 9.5, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481031', 'item': 'cable', 'price': 2, 'dates': '2024-03-06'}, {'_id': '65ea348d06716b1a6a894399', 'item': 'pub', 'price': 5, 'dates': '2024-03-07'}, {'_id': '65ea348d06716b1a6a89439a', 'item': 'phone', 'price': 1000, 'dates': '2024-03-07'}]", 'question': 'what purchases I can trim down to save some money ?\n', 'text': '\n + "Looking at the given data, there are a few purchases that can be trimmed down to save some money. Firstly, you could consider reducing your expenses on non-essential items such as the plane RC and the phone. These two items have relatively high prices of $150 and $1000 respectively, which may not be necessary for everyday use. Instead, you can opt for more affordable alternatives or wait until there is a sale to make these purchases. Additionally, while the cost of a cup of coffee may seem insignificant on its own, if this purchase is made frequently, it could add up over time. Consider reducing the frequency of buying coffee by bringing your own from home or finding cheaper alternatives nearby."'}
+INFO:root:response to question from llm is received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked : what purchases I can trim down to save some money ?
+
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+question : what purchases I can trim down to save some money ?
+ + ". just think step by step and simply output the answer of that question as if you are acountant and dont repeat the question in your solution"
+              context : [{'_id': '65e8b2b08546e17deaee9ec1', 'item': 'plane RC', 'price': 150, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481030', 'item': 'cup of coffee', 'price': 9.5, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481031', 'item': 'cable', 'price': 2, 'dates': '2024-03-06'}, {'_id': '65ea348d06716b1a6a894399', 'item': 'pub', 'price': 5, 'dates': '2024-03-07'}, {'_id': '65ea348d06716b1a6a89439a', 'item': 'phone', 'price': 1000, 'dates': '2024-03-07'}] this is users spending data
+===/LLModel.prompt_model -- prompt/===
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked : what purchases I can trim down to save some money ?
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+question : what purchases I can trim down to save some money ? + ". just think step by step and simply output the answer of that question as if you are acountant and dont repeat the question in your solution"
+              context : [{'_id': '65e8b2b08546e17deaee9ec1', 'item': 'plane RC', 'price': 150, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481030', 'item': 'cup of coffee', 'price': 9.5, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481031', 'item': 'cable', 'price': 2, 'dates': '2024-03-06'}, {'_id': '65ea348d06716b1a6a894399', 'item': 'pub', 'price': 5, 'dates': '2024-03-07'}, {'_id': '65ea348d06716b1a6a89439a', 'item': 'phone', 'price': 1000, 'dates': '2024-03-07'}] this is users spending data
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - Question Answered - .
+              answer : To save money, you can consider cutting down on non-essential purchases such as the RC plane and the phone. The RC plane costs $150 which could be a significant amount to spend on a hobby item. Similarly, the phone with a price tag of $1000 is also quite expensive and may not be necessary if you already have a functional device. By reducing or eliminating these purchases, you can allocate that money towards more important expenses or savings.
+INFO:root:response to question from llm is received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked : what purchases I can trim down to save some money ?
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+question : what purchases I can trim down to save some money ? + ". just think step by step and simply output the answer of that question as if you are acountant and dont repeat the question in your solution"
+              context : [{'_id': '65e8b2b08546e17deaee9ec1', 'item': 'plane RC', 'price': 150, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481030', 'item': 'cup of coffee', 'price': 9.5, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481031', 'item': 'cable', 'price': 2, 'dates': '2024-03-06'}, {'_id': '65ea348d06716b1a6a894399', 'item': 'pub', 'price': 5, 'dates': '2024-03-07'}, {'_id': '65ea348d06716b1a6a89439a', 'item': 'phone', 'price': 1000, 'dates': '2024-03-07'}] this is users spending data
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - Question Answered - .
+              answer : To save money, you can consider cutting down on non-essential purchases such as the RC plane and the phone. The RC plane costs $150 which could be a significant amount to spend on a hobby item. Similarly, the phone with a price tag of $1000 is also quite expensive and may not be necessary if you already have a functional device. By reducing or eliminating these purchases, you can allocate that money towards more important expenses or savings.
+INFO:root:response to question from llm is received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked : what purchases I can trim down to save some money ?
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+question : what purchases I can trim down to save some money ? + ". just think step by step and simply output the answer of that question as if you are acountant and dont repeat the question in your solution"
+              context : [{'_id': '65e8b2b08546e17deaee9ec1', 'item': 'plane RC', 'price': 150, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481030', 'item': 'cup of coffee', 'price': 9.5, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481031', 'item': 'cable', 'price': 2, 'dates': '2024-03-06'}, {'_id': '65ea348d06716b1a6a894399', 'item': 'pub', 'price': 5, 'dates': '2024-03-07'}, {'_id': '65ea348d06716b1a6a89439a', 'item': 'phone', 'price': 1000, 'dates': '2024-03-07'}] this is users spending data
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - Question Answered - .
+              answer : To save money, you can consider cutting down on non-essential purchases such as the RC plane and the phone. The RC plane costs $150 which could be a significant amount to spend on a hobby item. Similarly, the phone with a price tag of $1000 is also quite expensive and may not be necessary if you already have a functional device. By reducing or eliminating these purchases, you can allocate that money towards more important expenses or savings.
+INFO:root:response to question from llm is received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:Login request received
+INFO:root:DB - user Id found
+INFO:root:login Id received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:Login request received
+INFO:root:DB - user Id found
+INFO:root:login Id received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:Login request received
+INFO:root:DB - user Id found
+INFO:root:login Id received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:Login request received
+INFO:root:DB - user Id found
+INFO:root:login Id received
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked : What should I trim down to save some money ?
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+question : What should I trim down to save some money ? + ". just think step by step and simply output the answer of that question as if you are acountant and dont repeat the question in your solution"
+              context : [{'_id': '65e8b2b08546e17deaee9ec1', 'item': 'plane RC', 'price': 150, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481030', 'item': 'cup of coffee', 'price': 9.5, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481031', 'item': 'cable', 'price': 2, 'dates': '2024-03-06'}, {'_id': '65ea348d06716b1a6a894399', 'item': 'pub', 'price': 5, 'dates': '2024-03-07'}, {'_id': '65ea348d06716b1a6a89439a', 'item': 'phone', 'price': 1000, 'dates': '2024-03-07'}] this is users spending data
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - Question Answered -  for a week.
+              answer : To save money, you should consider trimming down on non-essential expenses such as the plane RC and the cup of coffee. These items have relatively higher prices compared to other purchases made during that week. Additionally, if possible, you could also look into finding cheaper alternatives or cutting back on unnecessary spending like going out for a pub visit.
+INFO:root:response to question from llm is received
+INFO:root:Speach received - I paid $25 for a Netflix account
+INFO:root:LLM - String received
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+text :  - I paid $25 for a Netflix account
+              task : Please generate a list of entities and their corresponding prices. each should be in seperate list and output that lists, for example [cab, fries, new phone][5,7,1000]
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - string seperated successfully
+INFO:root:DB - Adding expenses
+INFO:root:DB - adding Netflix
+INFO:root:DB - adding Amazon Prime Video
+INFO:root:DB - expenses updated
+INFO:root:database updated with new expenses
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:user data request received
+INFO:root:DB - extracting user data
+INFO:root:user data pulled success
+INFO:root:question request received
+INFO:root:LLM - Question asked : What should I trim down to save some money ?
+INFO:root:DB - extracting user data
+INFO:gpt4all._pyllmodel:LLModel.prompt_model -- prompt:
+question : What should I trim down to save some money ? + ". just think step by step and simply output the answer of that question as if you are acountant and dont repeat the question in your solution"
+              context : [{'_id': '65e8b2b08546e17deaee9ec1', 'item': 'plane RC', 'price': 150, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481030', 'item': 'cup of coffee', 'price': 9.5, 'dates': '2024-03-06'}, {'_id': '65e8b3b673314ec649481031', 'item': 'cable', 'price': 2, 'dates': '2024-03-06'}, {'_id': '65ea348d06716b1a6a894399', 'item': 'pub', 'price': 5, 'dates': '2024-03-07'}, {'_id': '65ea348d06716b1a6a89439a', 'item': 'phone', 'price': 1000, 'dates': '2024-03-07'}] this is users spending data
+===/LLModel.prompt_model -- prompt/===
+INFO:root:LLM - Question Answered -  for a week.
+              answer : To save money, you should consider trimming down on non-essential expenses such as the plane RC and the cup of coffee. These items have relatively higher prices compared to other purchases made during that week. Additionally, if possible, you could also look into finding cheaper alternatives or cutting back on unnecessary spending like going out for a pub visit.
+INFO:root:response to question from llm is received

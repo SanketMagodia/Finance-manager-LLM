@@ -36,8 +36,8 @@ def record_page():
 
     # Create a DataFrame
     df = pd.DataFrame(dataFetch())
-    df = df[::-1]
-    rows_to_display = 5
+    df = df[::-1][["item", "price", "dates"]]
+    rows_to_display = 3
 
 
     with st.expander("Expand Table"):
@@ -51,7 +51,19 @@ def record_page():
 
     # Filter by time period
     selected_period = st.sidebar.selectbox('Select time period:', ['One Month', 'Two Months', 'Lifetime'])
-
+    c1, c2,  = st.columns(2)
+    with c1:
+        st.write("Record and we'll figure out")
+        # Create a text input box
+        user_input = st.sidebar.text_area(" Ask your personal Finance Questions:")
+    with c2:
+        # Create a button to submit the message
+        submit_button = st.sidebar.button("Submit")
+    if submit_button and user_input:
+        response = api.AskLLM(st.session_state.token, user_input)
+        paragraphs = str(response['response']).split('\n')
+        for paragraph in paragraphs:
+            st.sidebar.write(paragraph)    
     # Filter DataFrame based on selected time period
     if selected_period == 'One Month':
         filtered_df = df[df['dates'] >= df['dates'].max() - pd.DateOffset(months=1)]
@@ -60,10 +72,5 @@ def record_page():
     else:
         filtered_df = df
 
-    # Aggregate expenses data by date
     aggregated_df = filtered_df.groupby('dates').sum().reset_index()
     RegressorPlot.regressor(aggregated_df)
-    # Create plot
-    
-
-

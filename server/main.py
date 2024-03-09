@@ -8,7 +8,6 @@ import llmPrompts
 import logging
 logging.basicConfig(filename='server.log', level=logging.INFO)
 
-MODELPATH = paths.MODEL
 
 app = FastAPI()
 class RegisterCreds(BaseModel):
@@ -29,15 +28,17 @@ class EditStructure(BaseModel):
     price: int
 class request(BaseModel):
     id: str
+
 @app.get("/")
 def read_root():
     return {"message": "Hello, World!"}
         
 @app.post("/askme")
-async def process_long_text(request: DataStructure):
-    model=gpt4all.GPT4All(MODELPATH)
-    processed_text = model.generate(request.question)
-    return {"processed_text": processed_text}
+def process_long_text(request: CommandsStructure):
+    logging.info('question request received')
+    response = llmPrompts.AskLLM(request.speach,request.id)
+    logging.info('response to question from llm is received')
+    return {"response": response}
 
 @app.post("/login")
 def login(LoginCreds : LoginCreds):
