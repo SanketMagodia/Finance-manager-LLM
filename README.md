@@ -11,7 +11,7 @@
 This project implements a personal A.I finance management system with the following features:
 
 - Speech-to-text input using an external service Streamlit-mic-recorder
-- Entity and price extraction using local Noether Hermes 2 LLM model powered with LangChain operations 
+- Entity and price extraction using local Nous Hermes 2 LLM model powered with LangChain operations 
 - Data storage and retrieval using MongoDB
 - Transaction table visualization with Streamlit
 - Monthly and yearly spending graphs using visualization Plotly
